@@ -1,0 +1,8 @@
+{
+    "routes": [{
+            "src": "/mikan/(.*)",
+            "dest": "https://mikanani.me/$1"
+        },
+            {"src": "/(.*)","dest": "https://mikanani.me/$1"}
+    ]
+}
